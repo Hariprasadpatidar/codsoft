@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 15px 50px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #555;
+    color: white;
+    padding: 60px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background: #0056b3;
+}
+
+.hero-img img {
+    width: 300px;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    background: #f4f4f4;
+}
+
+.about-img img {
+    width: 250px;
+}
+
+.about-text {
+    margin-left: 40px;
+}
+
+.about-text h2 {
+    margin-bottom: 15px;
+}
+
+/* FIXED BUTTON STYLE */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
